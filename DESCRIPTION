@@ -1,0 +1,35 @@
+Package: kishidalab
+Title: Easily Install and Load Kishida Lab Packages
+Version: 0.0.1
+Authors@R: 
+    c(
+    person(given = "Jonathan",
+           family = "Trattner",
+           role = c("aut", "cre"),
+           email = "jdt@jdtrat.com",
+           comment = c(ORCID = "0000-0002-1097-7603")),
+    person(given = "tidyverse authors",
+           role = "ctb",
+           comment = "Startup message code adapted from tidyverse package")
+           )
+Description: 'kishidalab' is an R package designed to easily allow
+    packages commonly used by the Kishida Lab to be installed and loaded 
+    at once. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: es
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1.9000
+Imports: 
+    cli,
+    crayon,
+    iapsr (>= 0.1.0),
+    pRpt (>= 0.1.0),
+    rstudioapi,
+    sborgr (>= 0.0.0.9000),
+    utils
+Remotes:  
+    jdtrat/pRpt,
+    jdtrat/sborgr,
+    jdtrat/iapsr
